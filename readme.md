@@ -13,13 +13,22 @@ Extends the Langaage with new features and syntax.
 
 (c)Allows us to use Strict types..Thus extends javascript in that its easier to debug your code since you cannot reasign the variables.
 
-(d)It also includes extra features that do not appear in JavaScript.(generics, interfaces,tuples etc)
+(d very similar to the Babel JavaScript Feature.
 
-It very similar to the Babel JavaScript Feature.
+(e)It also includes extra features that do not appear in JavaScript.(generics, interfaces,tuples etc)
 
-(e)When we use type Script we need to install the typescript compiler
+It)When we use type Script we need to install the typescript compiler
 
 (npm install -g typescript)
+
+```
+
+**Compiling TypeScript**
+
+```
+(a)Manually tsc sandbox.js
+
+(b)Automatically tsc sandbox.ts -w
 
 ```
 
