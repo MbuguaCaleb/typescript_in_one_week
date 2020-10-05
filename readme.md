@@ -32,6 +32,17 @@ It)When we use type Script we need to install the typescript compiler
 
 ```
 
+**Strict Types**
+
+```
+The main difference between JavaScript and TypeScript is that typeScript is strict on type.
+
+This means that if i declare a variable as a string it Ts it shall always be a String unlike JavaScript which is much more dynamic.
+
+we can do reassignment of variables but we can however never change the type.
+
+```
+
 **Notes By**
 
 ```

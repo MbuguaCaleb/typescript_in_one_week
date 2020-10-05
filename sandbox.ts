@@ -1,13 +1,22 @@
-/*TypeScript Does the Same things as JavaScript*/
-const character = 'Caleb';
+let character = 'caleb';
+let age = 30;
+let isBlackBelt = false;
 
-console.log(character);
+//character = 20;
+character = 'Mbugua';
 
-const inputs = document.querySelectorAll('input');
+//age = 'twenty';
+age = 20;
 
-console.log(inputs);
+//isBlackBelt = 'Yes';
+isBlackBelt = true;
 
-/*JavaScript forEach Loop*/
-inputs.forEach((input) => {
-  console.log(input);
-});
+//we can define the type of paraemeter which a function takes
+//when using typeScript
+
+//function circ(diameter) {}
+const circ = (diameter: number) => {
+  return diameter * Math.PI;
+};
+
+console.log(circ(4));
